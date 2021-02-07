@@ -8,3 +8,6 @@
 <link rel="stylesheet" href="{{ asset('admin/css/style.default.css') }}" id="theme-stylesheet">
 <!-- Custom stylesheet - for your changes-->
 <link rel="stylesheet" href="{{ asset('admin/css/custom.css') }}">
+<!-- Toastr CSS -->
+<link rel="stylesheet" href="{{ asset('admin/css/toastr.min.css') }}">
+

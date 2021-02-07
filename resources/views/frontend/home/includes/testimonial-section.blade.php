@@ -4,8 +4,8 @@
             <!-- heading -->
             <div class="col-12 wow fadeInUp">
                 <div class="heading justify-content-center">
-                    <h2>Our Client Says</h2>
-                    <p>Roresm ipssum dopor sit amet, consectetur adipisicing elit. Magnam suod, obcaecati odit consequatur aut ad non illum architsecto sequi eius eos deleniti dignissimos aspernatur molestiae tempora tempore quia numquam quod!</p>
+                    <h2>{{ $section_title->feedback_title }}</h2>
+                    <p>{{ $section_title->feedback_desc }}</p>
                 </div>
             </div>
             <!-- client quote -->

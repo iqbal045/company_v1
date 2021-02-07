@@ -2,27 +2,17 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Models\About;
+use App\Models\SectionTitle;
 
 class HomeController extends Controller
 {
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
-
-    /**
-     * Show the application dashboard.
-     *
-     * @return \Illuminate\Contracts\Support\Renderable
-     */
     public function index()
     {
-        return view('home');
+        $section_title = SectionTitle::findOrFail(1)->first();
+
+        $about = About::findOrFail(1)->with('images')->first();
+
+        return view('frontend.home.index', compact('section_title', 'about'));
     }
 }

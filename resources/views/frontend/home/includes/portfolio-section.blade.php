@@ -4,8 +4,8 @@
             <!-- heading -->
             <div class="col-12 wow fadeInUp">
                 <div class="heading justify-content-center">
-                    <h2>Our Portfolio</h2>
-                    <p>Oorrem spsum dopor sit amet, consectetur adipisicing elit. Magnam suod, obcaecati odit consequatur aut ad non illum architecto sequi eius eos deleniti dignissimos aspernatur molestiae tempora tempore quia numquam gsod!</p>
+                    <h2>{{ $section_title->portfolio_title }}</h2>
+                    <p>{{ $section_title->portfolio_desc }}</p>
                 </div>
             </div>
             <!-- // end heading -->

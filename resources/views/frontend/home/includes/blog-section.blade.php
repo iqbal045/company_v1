@@ -4,8 +4,8 @@
             <!-- heading -->
             <div class="col-12 wow fadeInUp">
                 <div class="heading justify-content-center">
-                    <h2>Latest Posts</h2>
-                    <p>Iorrem ipssum dopor sit amet, consectetur adipisicing elit. Sint aliquam voluptas, corporis ullam nam blanditiis quae praesentium quidem illo voluptates vkoio dlorl.</p>
+                    <h2>{{ $section_title->blog_title }}</h2>
+                    <p>{{ $section_title->blog_desc }}</p>
                 </div>
             </div>
             <!-- blog post slider -->

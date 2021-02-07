@@ -4,8 +4,8 @@
             <!-- heading -->
             <div class="col-12 wow fadeInDown">
                 <div class="heading justify-content-center">
-                    <h2>About Us</h2>
-                    <p>Hello, we are udayon. tpsum dopor sit amet, consectetur adipisicing elit. Magnam quod, obcaecati odit consequatur aut ad non illum architecto sequi eius eos deleniti dignissimos aspernatur molestiae tempora tempore quia numquam libero!</p>
+                    <h2>{{ $section_title->about_title }}</h2>
+                    <p>{{ $section_title->about_desc }}</p>
                 </div>
             </div>
             <!-- // end heading -->
@@ -14,18 +14,17 @@
                 <div class="col-12 col-lg-6">
                     <!-- about slider -->
                     <div class="about-images owl-carousel">
-                        <img src="assets/img/about-1.jpg" alt="about">
-                        <img src="assets/img/about-2.jpg" alt="about">
-                        <img src="assets/img/about-3.jpg" alt="about">
+                        @foreach($about->images as $aboutImg)
+                        <img src="{{ $aboutImg->url }}" alt="about">
+                        @endforeach
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">
                     <!-- about text -->
                     <div class="about-text">
-                        <h3>Know More About Udayon</h3>
-                        <h4>We are udayon. sit amet, consectetur adipisicing elit. Assumenda, voluptatibus.</h4>
-                        <p>dortem ipssum dopor sit amet, consectetur adipisicing elit. Dolsremque omnis, obcaecati blanditiis, veniam possimus sint quod pariatur. Laudantium eveniet inventore laborum eaque saepe sequi est?</p>
-                        <p>Consectetur adipisicing elit. Doropemque omnis, obcaecati blanditiis, veniam possimus sint quod pariatur. Laudantium eveniet inventore.</p>
+                        <h3 class="mb-2">{{ $about->title }}</h3>
+                        <h4>{{ $about->subtitle }}</h4>
+                        <p>{{ $about->desc }}</p>
                         <a href="" class="main-btn main-btn2">Learn More</a>
                     </div>
                 </div>

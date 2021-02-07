@@ -4,9 +4,8 @@
             <!-- heading -->
             <div class="col-12 wow fadeInUp">
                 <div class="heading justify-content-center">
-                    <h2>Contact Us</h2>
-                    <p>Dowrem iphsum dopor sit amet, consectetur adipisicing elit. Sint aliquam voluptas, corporis ullam nam blanditiis quae praesentium quidem illo voluptates. Donsectetur adipisicing elit. Sint aliquam voluptas, corporis ullam nam aliquam quidem.
-                    </p>
+                    <h2>{{ $section_title->contact_title }}</h2>
+                    <p>{{ $section_title->contact_desc }}</p>
                 </div>
             </div>
             <!-- contact area -->

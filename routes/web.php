@@ -1,7 +1,6 @@
 <?php
 
-use App\Http\Controllers\admin\DashboardController;
-use Illuminate\Support\Facades\Auth;
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,13 +12,11 @@ use Illuminate\Support\Facades\Route;
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
 |
-*/
+ */
 
 //Website Frontend Route
 //home
-Route::get('/', function () {
-    return view('frontend.home.index');
-});
+Route::get('/', [HomeController::class, 'index'])->name('home');
 //blog
 Route::get('/blog', function () {
     return view('frontend.blog.index');
@@ -37,16 +34,5 @@ Route::get('/service-detail', function () {
     return view('frontend.service.detail');
 });
 
-
-// Admin Route
-Auth::routes([
-    'register' => false, // Registration Routes...
-    'reset' => false, // Password Reset Routes...
-    'verify' => false, // Email Verification Routes...
-]);
-
-// Dashboard
-Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
-
-
-//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// For Admin
+require __DIR__ . '/admin.php';

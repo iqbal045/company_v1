@@ -11,7 +11,7 @@
     <ul class="list-unstyled">
         <!-- Dashboard -->
         <li class="active">
-            <a href="index.html">
+            <a href="{{ route('dashboard') }}">
                 <i class="icon-dashboard"></i>Dashboard
             </a>
         </li>
@@ -49,7 +49,7 @@
         <li><a href="#exampledropdownDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-picture"></i>Front Page </a>
             <ul id="exampledropdownDropdown" class="collapse list-unstyled ">
                 <li><a href="#">Banner</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="{{ route('abouts.index') }}">About</a></li>
                 <li><a href="#">Video</a></li>
                 <li><a href="#">Text</a></li>
                 <li><a href="#">Contact</a></li>

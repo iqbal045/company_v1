@@ -4,8 +4,8 @@
             <!-- heading -->
             <div class="col-12 wow fadeInUp">
                 <div class="heading justify-content-center">
-                    <h2>Our Team</h2>
-                    <p>Helopm ipssum dopsor sirt amet, consectetur adipisicing elit. Magnam suod, obcaecati odit consequatur aut ad non illum architecto sequi eius eos deleniti dignissimos aspernatur molestiae tempora tempore quia numquam quod!</p>
+                    <h2>{{ $section_title->team_title }}</h2>
+                    <p>{{ $section_title->team_desc }}</p>
                 </div>
             </div>
             <!-- // end heading -->
@@ -15,13 +15,6 @@
                 <figure class="single-member">
                     <div class="team-box">
                         <img src="assets/img/avater/member-2.jpg" alt="img16" />
-                        <ul class="team-social bgc">
-                            <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-pinterest-p"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-stack-overflow"></i></a></li>
-                        </ul>
                     </div>
                     <!-- member intro -->
                     <figcaption>
@@ -33,13 +26,6 @@
                 <figure class="single-member">
                     <div class="team-box">
                         <img src="assets/img/avater/member-3.jpg" alt="img16" />
-                        <ul class="team-social bgc">
-                            <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-pinterest-p"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-stack-overflow"></i></a></li>
-                        </ul>
                     </div>
                     <!-- member intro -->
                     <figcaption>
@@ -51,13 +37,6 @@
                 <figure class="single-member">
                     <div class="team-box">
                         <img src="assets/img/avater/member-4.jpg" alt="img16" />
-                        <ul class="team-social bgc">
-                            <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-pinterest-p"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-stack-overflow"></i></a></li>
-                        </ul>
                     </div>
                     <!-- member intro -->
                     <figcaption>
@@ -69,13 +48,6 @@
                 <figure class="single-member">
                     <div class="team-box">
                         <img src="assets/img/avater/member-5.jpg" alt="img16" />
-                        <ul class="team-social bgc">
-                            <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-pinterest-p"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-stack-overflow"></i></a></li>
-                        </ul>
                     </div>
                     <!-- member intro -->
                     <figcaption>
@@ -87,13 +59,6 @@
                 <figure class="single-member">
                     <div class="team-box">
                         <img src="assets/img/avater/member-1.jpg" alt="img16" />
-                        <ul class="team-social bgc">
-                            <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-pinterest-p"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-stack-overflow"></i></a></li>
-                        </ul>
                     </div>
                     <!-- member intro -->
                     <figcaption>
